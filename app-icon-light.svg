@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="App Icon - vereinsping">
+  <defs>
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf7ee"/>
+      <stop offset="100%" stop-color="#f0e8d8"/>
+    </linearGradient>
+    <linearGradient id="goldLight" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#a07843"/>
+      <stop offset="55%" stop-color="#8f6a3f"/>
+      <stop offset="100%" stop-color="#6e5030"/>
+    </linearGradient>
+    <linearGradient id="sageLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7e998c"/>
+      <stop offset="100%" stop-color="#5f7f74"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgLight)"/>
+
+  <!-- Left member (head) -->
+  <circle cx="166" cy="208" r="42" fill="url(#goldLight)" opacity="0.65"/>
+  <!-- Right member (head) -->
+  <circle cx="346" cy="208" r="42" fill="url(#goldLight)" opacity="0.65"/>
+  <!-- Center member (head, foreground) -->
+  <circle cx="256" cy="192" r="54" fill="url(#goldLight)"/>
+
+  <!-- Group body base -->
+  <path d="M 96 370 Q 96 306 166 296 Q 210 288 256 288 Q 302 288 346 296 Q 416 306 416 370 Z" fill="url(#goldLight)" opacity="0.5"/>
+
+  <!-- Ping broadcast arcs (top right) -->
+  <path d="M 388 124 Q 434 166 434 224" fill="none" stroke="url(#sageLight)" stroke-width="22" stroke-linecap="round" opacity="0.75"/>
+  <path d="M 412 96 Q 468 152 468 232" fill="none" stroke="url(#sageLight)" stroke-width="14" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Notification dot -->
+  <circle cx="378" cy="132" r="34" fill="url(#goldLight)"/>
+  <circle cx="378" cy="132" r="18" fill="#fdf7ee" opacity="0.88"/>
+</svg>
